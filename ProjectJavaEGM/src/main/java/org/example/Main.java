@@ -1,5 +1,6 @@
 package org.example;
 
+import javax.swing.*;
 import java.util.*;
 
 public class Main {
@@ -33,7 +34,7 @@ public class Main {
 
         System.out.println("El resultado es: " + suma);*/
 
-    //Desarrollar un programa que le pida al usuario su nombre, su edad, su peso y su altura y que calcule el imc y al final muestren una ficha de todos sus datos
+        //Desarrollar un programa que le pida al usuario su nombre, su edad, su peso y su altura y que calcule el imc y al final muestren una ficha de todos sus datos
 
         /*Scanner scanner = new Scanner(System.in);
 
@@ -126,7 +127,7 @@ public class Main {
         System.out.println("El precio del carro es: $" + carro);
         System.out.println("El impuesto de tenencia es: $" + impuesto);*/
 
-        int a = 10;
+        /*int a = 10;
         int b = 5;
         int c = 3;
 
@@ -134,6 +135,69 @@ public class Main {
             System.out.println("a es mayor que b");
         } else {
             System.out.println("a no es mayor que b");
+        }*/
+
+
+       /* JOptionPane.showMessageDialog(null,"Hola mundo");
+
+        int num = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero"));
+        JOptionPane.showMessageDialog(null, "EL numero: " + num);
+
+
+        if (num > 18) {
+            JOptionPane.showMessageDialog(null, "El numero es mayor a 18");
+        } else {
+            JOptionPane.showMessageDialog(null,"El numero es menor a 18");
+        }*/
+       /* for (int i = 0; i<10; i++){
+            JOptionPane.showMessageDialog(null, "Hola, la variable i vale: " + i);
+        }*/
+
+       /* double nums[] = new double[10];
+
+        nums[0] = 10;
+        nums[1] = 100;
+        nums[2] = 1000;
+        nums[3] = 10000;
+        nums[4] = 100000;
+        nums[5] = 1000000;
+        nums[6] = 10000000;
+        nums[7] = 100000000;
+        nums[8] = 1000000000;
+        nums[9] = 1000000000;
+
+        JOptionPane.showMessageDialog(null, "Numero 1: " + nums[0]);
+
+
+        for (int i = 0; i < 10; i++) {
+            nums[i] = Double.parseDouble(JOptionPane.showInputDialog("Ingresa el numero en la posicion " + i + ":"));
         }
+
+
+        for (int i = 0; i < 10; i++) {
+            JOptionPane.showMessageDialog(null, "EL numero es: " + nums[i]);
+        }*/
+
+        //determinar el numero mayor de 3 numeros
+
+       /* int num1 = 10;
+        int num2 = 44;
+        int num3 = 37;
+        int num4 = 78;
+        // && ||  and or
+        if (num1 > num2 && num1 > num3 && num1 > num4) {
+            JOptionPane.showMessageDialog(null, "El numero 1 es mayor");
+        }
+        if (num2 > num1 && num2 > num3 && num2 > num4) {
+            JOptionPane.showMessageDialog(null, "El numero 2 es mayor");
+        }
+        if (num3 > num1 && num3 > num2 && num3 > num4) {
+            JOptionPane.showMessageDialog(null, "El numero 3 es mayor");
+        }
+        if (num4 > num1 && num4 > num2 && num4 > num3) {
+            JOptionPane.showMessageDialog(null, "El numero 4 es mayor");
+        }*/
+
+        
     }
 }
