@@ -1,0 +1,9 @@
+La definicion de fetch merge y pull
+
+Fetch: Es el comando que le dice al git local que recupere la ultima informacion de los metadatos del original. O mas bien como comprobar si hay algun cambio disponible
+
+Merge: Fusionara cualquier cambio que se haya hecho en la base de codigo en una rama separada de tu rama actual como un nuevo commit
+
+Pull: Este hace 2 cosas: 
+1 Sirve para actualizar la version locar de un repositorio desde otro remoto
+2 Actualiza las referencias de rama remota para todas las demas ramas
